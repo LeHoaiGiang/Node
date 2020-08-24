@@ -30,3 +30,7 @@ int DEVICE_ID=2;
 long LORA_BW=500E3; // 41.7E3, 125E3, 62.5E3
 #define LORA_PREAMBLE_LENGTH  8
 #include <Q2HX711.h>
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+static bool reponse_publish = false;
